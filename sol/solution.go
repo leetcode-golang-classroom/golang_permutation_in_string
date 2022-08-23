@@ -21,7 +21,7 @@ func checkInclusion(s1 string, s2 string) bool {
 			if freq[s2[left]-'a'] >= 0 {
 				count++
 			}
-			freq[s2[left]-'a']--
+			freq[s2[left]-'a']++
 			left++
 		}
 	}
